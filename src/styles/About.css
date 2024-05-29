@@ -1,0 +1,58 @@
+/* .line-styling {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 50px;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:blue ;
+}
+.style-circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: blue;
+}
+.style-line {
+    width: 95%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: blue;
+} */
+.about-section{
+    background-color: rgb(33, 33, 33);
+    height: 100vh;
+}
+
+.about-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+.abt-main-heading{
+    color: rgb(254, 240, 223);
+    margin-top: -10rem;
+    margin-left: -25rem;
+    font-size: 3.5rem;
+    margin-top:8rem;
+    margin-bottom: 6rem;
+}
+.abt-me-para{
+    color: rgb(254, 240, 223);
+    margin-left: 12rem;
+    text-align: left;
+    font-size: 1.5rem;
+    margin-top: 4rem;
+    margin-right: 8rem;
+}
+.abt-me-para-heading{
+    color: rgb(254, 240, 223);
+    margin-left: 12rem;
+    font-size: 1.4rem;
+    margin-right: 8rem;
+    text-align: left;
+}
