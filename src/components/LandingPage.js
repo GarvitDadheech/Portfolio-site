@@ -2,7 +2,7 @@ import profilePic from '../assets/profile_pic.jpeg';
 import '../styles/LandingPage.css';
 function LandingPage() {
     return (
-        <div className="landing">
+        <div className="landing" id='LandingPage'>
             <div className="landing-container">
                 <div className="landing-container-left">
                     <div className="lcl-content">

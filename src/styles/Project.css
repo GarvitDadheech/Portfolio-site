@@ -1,0 +1,73 @@
+.ProjectSection {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(33,33,33);
+    width:100%;
+    height: 100vh;
+    margin: -58rem;
+}
+
+.ProjectSectionParent{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:100vh;
+}
+/* .project-head h1{
+    color:black;
+    font-size: 3rem;
+    height: 2rem;
+    width: 2rem;
+    
+} */
+.ProjectSectionParent h1{
+    color: rgb(254, 240, 223);
+    font-size: 4.4rem;
+}
+
+
+.ViewAllProjects button {
+    outline: none;
+    border: none;
+    width: 150px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: inherit;
+    border-radius: 45px;
+    font-size: 1.05rem;
+    font-family: var(--primaryFont);
+    font-weight: 500;
+    padding-left: 1.5rem;
+    cursor: pointer;
+    color: #eaeaea;
+    transition: color 0.2s;
+    background-color: #f56539;
+}
+
+.ViewAllProjects button:hover{
+    color: black;
+}
+
+.ViewAllProjects svg{
+    color: #eaeaea;
+    font-size: 1.5rem;
+    transition: color 0.2s;
+    background-color: rgb(32, 33, 32);
+    padding: 0.5rem;
+    margin-right: 0.2rem;
+    border-radius: 50%;
+}
+
+.ViewAllProjects{
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 2rem;
+}

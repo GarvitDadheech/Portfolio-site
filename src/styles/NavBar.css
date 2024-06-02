@@ -1,27 +1,63 @@
-.navbar-container{
+.navLink-container{
+    position: fixed;
+    height: 100vh;
+    background-color: rgb(33, 33, 33);
+    z-index: 101;
+    width: 20rem;
+    border-radius: 0px 30px 50px 0px;
+    display: none;
+}
+a{
+    text-decoration: none;
+
+}
+.list-item{
+    list-style: none;
+    margin-bottom: 3rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    margin-top: 1 rem;
-    padding-left: 3 rem;
-    padding-right: 3 rem;
-    position: absolute;
-    width: 100%;
-}
-.name-heading{
-    margin-left: 4rem;
-    font-weight: bold;
-    font-family: "Dancing Script", cursive;
-    font-size: 2.5rem;
-}
-.menu-logo{
-    margin-right:3rem;
-    height: 2 rem;
-    width: 2 rem;
-    color: white;
-}
-.menu-logo:hover{
+    width: 11rem;
+    height: 3rem;
+    background-color: rgb(33, 33, 33);
+    border: 3px solid rgb(254, 240, 223);
     color: rgb(254, 240, 223);
+    border-radius: 30px;
+    font-size: larger;
+    text-decoration: none;
+}
+.close-navBar{
+    margin-left: 15rem;
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    color: rgb(254, 240, 223);
+}
+.close-navBar:hover{
     cursor: pointer;
     transition: ease-in-out 0.4s;
+}
+.navbar-list{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    height: 50rem;
+    margin-top: 4rem;
+    margin-right: 3rem;
+}
+.list-item:hover{
+    background-color: rgb(254, 240, 223);
+    color: rgb(33, 33, 33);
+    cursor: pointer;
+    transition: ease-in-out 0.4s;
+}
+.right-blur{
+    display: none;
+    z-index: 100;
+    backdrop-filter: blur(7px);
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
 }

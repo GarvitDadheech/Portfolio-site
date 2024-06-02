@@ -1,0 +1,56 @@
+.services-container{
+    background-color: rgb(33,33,33);
+    height: 80vh;
+    width: 100%;
+    margin-top: -8rem;
+}
+.services-heading{
+    margin-top: 0px;
+    font-size: 4.4rem;
+    color: rgb(254, 240, 223);
+}
+.services-para{
+    font-size: 1.6rem;
+    color: rgb(254, 240, 223);
+    margin-top: 4rem;
+}
+.services-body-container{
+    display: flex;
+    margin-left: 0px;
+    justify-content:center;
+    margin-top: 10rem;
+}
+.services-body{
+    margin-left: -100px;
+}
+.services-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: rgb(215, 199, 170);
+    margin-bottom: 2rem;
+    border: 0.1px solid black;
+    border-radius: 2rem;
+    margin-left: 7rem;
+    width: 8rem;
+    height: 8rem;
+}
+.service-img{
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    margin-top: 1.1rem;
+    transition: transform 0.3s ease-in-out;
+}
+.service-name{
+    margin-bottom: 3px;
+}
+.services-content:hover .service-img {
+    animation: jump-twice 0.6s ease-in-out;
+}
+@keyframes jump-twice {
+    0%, 100% { transform: translateY(0); }
+    25%, 75% { transform: translateY(-15px); }
+    50% { transform: translateY(0); } 
+  }

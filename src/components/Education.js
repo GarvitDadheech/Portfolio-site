@@ -2,7 +2,7 @@ import '../styles/Education.css';
 import profilePic from '../assets/profile_pic.jpeg';
 function Education() {
     return (
-        <div className="ed-body">
+        <div className="ed-body" id='Education'>
             <div className="ed-description">
                 <h1 className="ed-heading">Education</h1>
                 <div className="ed-card">
@@ -37,7 +37,7 @@ function Education() {
                 </div>
             </div>
             <div className="ed-image">
-            <img src={profilePic} alt="profile-pic-image" className='profile-pic'/>
+            <lottie-player src="https://lottie.host/b4c399dc-2ac9-495c-8116-df7edc3e1f02/gKVUmL0hhW.json" background="##FFFFFF" speed="1"  loop autoplay direction="1" mode="normal"></lottie-player>
             </div>
         </div>
     );
