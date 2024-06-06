@@ -22,7 +22,7 @@ function LandingPage() {
                         <p className='intro-para'>As an aspiring software engineer, I have a deep interest in coding, problem-solving, and technology innovation. My journey in the world of computer science has equipped me with a solid foundation in data structures and algorithms using Java, and I have developed proficiency in JavaScript, Spring Boot, and full-stack web development.</p>
                         <div className='lcr-buttonContainer'>
                             <a href="/static/media/resume.bc382d73.pdf" download="resume" target="_blank" rel="noreferrer"><button class="MuiButtonBase-root MuiButton-root MuiButton-text jss487" className='lcr-resume-button' tabindex="0" type="button"><span class="MuiButton-label">Download CV</span><span class="MuiTouchRipple-root"></span></button></a>
-                            <a spy="true" duration="2000" href="/#contacts"><button class="MuiButtonBase-root MuiButton-root MuiButton-text jss488" className='lcr-contact-button' tabindex="0" type="button"><span class="MuiButton-label">Contact</span><span class="MuiTouchRipple-root"></span></button></a>
+                            <a spy="true" duration="2000" href='#Contact'><button class="MuiButtonBase-root MuiButton-root MuiButton-text jss488" className='lcr-contact-button' tabindex="0" type="button"><span class="MuiButton-label">Contact</span><span class="MuiTouchRipple-root"></span></button></a>
                         </div>
                     </div>
                     

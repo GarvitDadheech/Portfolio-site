@@ -13,7 +13,7 @@ a{
 }
 .list-item{
     list-style: none;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -42,7 +42,7 @@ a{
     justify-content:flex-start;
     align-items: center;
     height: 50rem;
-    margin-top: 4rem;
+    margin-top: 3rem;
     margin-right: 3rem;
 }
 .list-item:hover{

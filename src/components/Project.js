@@ -31,7 +31,7 @@ function Project() {
       return (
         <div className="ProjectSectionParent" id="Project">
             {/* <div className='project-head'> */}
-                <h1>Projects</h1>
+                <h1 className='project-heading'>Projects</h1>
             {/* </div> */}
           <div className="ProjectSection">
             {data.map((item, index) => (
