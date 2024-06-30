@@ -3,11 +3,11 @@ import ProjectCard from './ProjectCard';
 function Project() {
     const data = [
         {
-          title: "GeoGeniusQuiz",
-          description: "A quiz taking website",
-          techStack: "HTML , CSS , JavaScript",
-          linkCode: "https://github.com/GarvitDadheech/GeoGeniusQuiz",
-          linkDemo: "https://garvitdadheech.github.io/GeoGeniusQuiz/",
+          title: "AI customer support chatbot",
+          description: "An AI chatbot which can answer hotel related queries.",
+          techStack: "JavaScript, Axios, Node.js",
+          linkCode: "https://github.com/GarvitDadheech/AI-ChatbotForHotels",
+          linkDemo: "https://github.com/GarvitDadheech/AI-ChatbotForHotels",
           Img: "https://dev-portfolio-template.netlify.app/static/media/one.a3146128.svg",
         },
         {
@@ -19,12 +19,12 @@ function Project() {
           Img: "https://dev-portfolio-template.netlify.app/static/media/two.721a0672.svg",
         },
         {
-          title: "Image Compressor",
+          title: "Speed Type Game",
           description:
-            "An image compressor which compresses images.",
-          techStack: "Python, Numpy",
-          linkCode: "https://github.com/GarvitDadheech/Image-Compression",
-          linkDemo: "https://github.com/GarvitDadheech/Image-Compression",
+            "A speed type game which can tell your typing speed.",
+          techStack: "Html, Css, JavaScript",
+          linkCode: "https://github.com/GarvitDadheech/Speed-Type",
+          linkDemo: "hhttps://garvitdadheech.github.io/Speed-Type/",
           Img: "https://dev-portfolio-template.netlify.app/static/media/three.d4f751d1.svg",
         },
       ];

@@ -1,4 +1,4 @@
-import { FaPen } from 'react-icons/fa';
+import { FaAdn, FaDatabase, FaPen } from 'react-icons/fa';
 import { FaVideo } from 'react-icons/fa';
 import { FaWpexplorer } from 'react-icons/fa';
 import { FaPhotoVideo } from 'react-icons/fa';
@@ -17,9 +17,27 @@ function Services() {
                 <div className="services-body-container">
                     <div className='services-content'>
                         <div className='service-img'>
-                            <FaPen/>
+                            <FaCode/>
                         </div>
-                        <h4 className='service-name'>Content Writing</h4>
+                        <h4 className='service-name'>Frontend Development</h4>
+                    </div>
+                    <div className='services-content'>
+                        <div className='service-img'>
+                            <FaCode/>
+                        </div>
+                        <h4 className='service-name'>Backend Development</h4>
+                    </div>
+                    <div className='services-content'>
+                        <div className='service-img'>
+                            <FaDatabase/>
+                        </div>
+                        <h4 className='service-name'>DataBases</h4>
+                    </div>
+                    <div className='services-content'>
+                        <div className='service-img'>
+                            <FaAdn/>
+                        </div>
+                        <h4 className='service-name'>Data Analysis</h4>
                     </div>
                     <div className='services-content'>
                         <div className='service-img'>
@@ -29,27 +47,9 @@ function Services() {
                     </div>
                     <div className='services-content'>
                         <div className='service-img'>
-                            <FaWpexplorer/>
+                            <FaPen/>
                         </div>
-                        <h4 className='service-name'>Web Design</h4>
-                    </div>
-                    <div className='services-content'>
-                        <div className='service-img'>
-                            <FaPhotoVideo/>
-                        </div>
-                        <h4 className='service-name'>Photography</h4>
-                    </div>
-                    <div className='services-content'>
-                        <div className='service-img'>
-                            <FaBlog/>
-                        </div>
-                        <h4 className='service-name'>Blog Posting</h4>
-                    </div>
-                    <div className='services-content'>
-                        <div className='service-img'>
-                            <FaCode/>
-                        </div>
-                        <h4 className='service-name'>Software Development</h4>
+                        <h4 className='service-name'>Content Writing</h4>
                     </div>
                 </div>
             </div>

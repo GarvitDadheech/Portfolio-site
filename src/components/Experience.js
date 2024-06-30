@@ -25,7 +25,7 @@ function Experience() {
                     </div>
                     <div className="expcard-details">
                     <h6 className='year'>2023-2024</h6>
-                    <h4 className='exp-type'>Software Developer</h4>
+                    <h4 className='exp-type'>Graphic Designing</h4>
                     <h5 className='insti-name'>Freelancing</h5>
                     </div>
                 </div>
